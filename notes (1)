@@ -1,0 +1,33 @@
+CSS -> (cascading style sheet) is the language used to describe the presentation 
+of the document written in HTML.
+
+css allows us to control the layout, design, and appearance of the web pages
+
+
+
+
+//overview 
+
+about css
+what is css 
+how to use css and syntax
+different ways to apply the css (internal internal and exteranl)
+how to select
+group selector 
+precedence for inline internal and external 
+class vs id 
+columns all its properites 
+box model 
+border -> all the options
+padding -> all the options
+margin -> all the options
+shorthand notations
+css colore hex hsla rgba rgb 
+outline 
+text-> font family, align........
+
+
+
+
+
+

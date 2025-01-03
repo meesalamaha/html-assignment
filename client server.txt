@@ -1,0 +1,18 @@
+What is client:
+A client is the device, appliacation or software that requests the service, resoureces and data
+from the server. It interacts with the user and sends requests to the server and perform specific actions 
+such as accessing the webpage, submitting the data etc.
+
+What is server:
+A server is the appliacation or software that provides the services, resources and data to clients 
+in reponse to their requests. 
+Server handle the backend logic, mangage datbases and process request from the muliple clients
+
+
+what is database:
+A database is an organized collection of data that is stored and managed, allowing easy access, 
+retrievel, manipulation and management. 
+
+
+
+

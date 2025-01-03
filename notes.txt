@@ -1,0 +1,11 @@
+//what is css, css syntax
+//different internal inline exteranl 
+//id and class
+//columns
+//group the selector 
+//text proprties
+//border
+//padding
+//margin
+//box model
+//colors

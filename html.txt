@@ -1,0 +1,25 @@
+HTML ( hypertext markup lang) which is used to create the structure 
+and content of the webpage.
+
+first imp while creating the HTML or an project, the first while which we are going to create 
+is 
+
+index.html 
+
+<!DOCTYPE html> to tell the browser that we are using HTML5 
+
+h1 tags:
+
+The main heading of the page we should written in h1 tag
+if we have sub heading then we are going to write in h2 tag
+based up on the imp of the content we are going to use the other tags
+
+p tag
+
+br -> break tag which will break the content
+
+hr -> will gives the horizontal line
+
+pre -> preformatted tag 
+
+

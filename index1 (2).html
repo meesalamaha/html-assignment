@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>css tables</title>
+        <style>
+            table {
+                width: 100%;
+            }
+
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+                padding: 25px;
+                /* margin: 100px; */
+            }
+
+            thead {
+                background-color: #a03131;
+                color: white;
+            }
+
+            /* tbody {
+                background-color: aquamarine;
+            } */
+
+            tr:nth-child(even) {
+                background-color: grey;
+            }
+
+            tr:nth-child(odd) {
+                background-color: goldenrod;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Position</th>
+                    <th>Department</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lokesh</td>
+                    <td>21</td>
+                    <td>Class lead</td>
+                    <td>CSE</td>
+                </tr>
+
+                <tr>
+                    <td>Farooq</td>
+                    <td>22</td>
+                    <td>Team lead</td>
+                    <td>ECE</td>
+                </tr>
+
+                <tr>
+                    <td>Priya</td>
+                    <td>23</td>
+                    <td>Topper</td>
+                    <td>EEE</td>
+                </tr>
+
+                <tr>
+                    <td>Lokesh</td>
+                    <td>21</td>
+                    <td>Class lead</td>
+                    <td>CSE</td>
+                </tr>
+
+                <tr>
+                    <td>Farooq</td>
+                    <td>22</td>
+                    <td>Team lead</td>
+                    <td>ECE</td>
+                </tr>
+
+                <tr>
+                    <td>Priya</td>
+                    <td>23</td>
+                    <td>Topper</td>
+                    <td>EEE</td>
+                </tr>
+                
+                <tr>
+                    <td>Priya</td>
+                    <td>23</td>
+                    <td>Topper</td>
+                    <td>EEE</td>
+                </tr>
+
+                
+                <tr>
+                    <td>Priya</td>
+                    <td>23</td>
+                    <td>Topper</td>
+                    <td>EEE</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
+        </table>
+
+    </body>
+</html>

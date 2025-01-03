@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Forms</title>
+    </head>
+    <body>
+        <form>
+            <label for="firstname">First Name:</label>
+            <input type="text" id = "firstname" name="firstname" value="venkat" placeholder="Enter First Name"><br><br>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id = "lastname" name="lastname" value="venkata" placeholder="Enter Last Name"><br><br>
+
+            <label for = "email">Email:</label>
+            <input type="email" id = "email" name = "email" placeholder="Enter your email"><br><br>
+
+            <label for = "password">Password:</label>
+            <input type="password" id = "password" name = "password" placeholder="Enter your password" minlength="1" maxlength="2"><br><br>
+            
+            <div>
+                <span>Select your Gender...</span>
+                <input type = "radio" id = "male" name="gender" value="male">
+                <label for="male">Male</label>
+               
+                <input type = "radio" id = "female" name="gender" value="female">
+                <label for="female">Female</label>
+               
+                <input type = "radio" id = "transgender" name="gender" value="transgender">
+                <label for="transgender">Transgender</label>
+            </div>
+
+            <br> 
+            <!-- Tv, listing music, sometimes playing cricket -->
+            <div>
+                <!-- <p>Select your Hobbies:</p> -->
+                 <fieldset>
+                    <legend>Select your Hobbies:</legend>
+                    <input type = "checkbox" id = "tv" name="hobbies" value="WatchingTV">
+                    <label for = "tv">Watching TV</label>
+    
+                    <input type = "checkbox" id = "music" name="hobbies" value="music">
+                    <label for = "music">Listening Music</label>
+    
+                    <input type = "checkbox" id = "cricket" name="hobbies" value="cricket">
+                    <label for = "cricket">Playing cricket</label>
+                 </fieldset>
+               
+            </div>
+            <br>
+
+            <div>
+                <label for = "country">Country:</label>
+                <select id = "country" name="country">
+                    <option value="">Select Your country</option>
+                    <option value="India">India</option>
+                    <option value="usa">usa</option>
+                    <option value="japan">japan</option>
+                    <option value="china">china</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <p>Please enter your age:</p>
+                <label for = "age">Age:</label>
+                <input type = "number" id = "age" name = "age" min = "1" max = "100" placeholder="Enter your age">
+            </div>
+
+            <br>
+            Please upload your photo:
+            <input type = "file">
+
+            <br>
+            Enter you date of birth
+
+            <input type = "date">
+
+            <div>
+                <label for = "comments">Short Comment:</label>
+                <textarea id = "comments" name="comments" rows = "10" cols = "50" placeholder="Please enter your comments"></textarea>            
+            </div>
+
+            <br>
+            <br>
+            <!-- datalist -->
+             
+            <input list = "favFood" placeholder="Choose your fav food">
+            <datalist id = "favFood">
+                <option value="idly">Idly</option>
+                <option value="Dosa">Dosa</option>
+                <option value="Vada">Vada</option>
+                <option value="pizza">Pizza</option>
+            </datalist>
+            
+
+            <button>Submit</button>
+
+        </form>
+
+
+        <!-- <p>this is venkat</p>
+        <p>this is venkat</p>
+        <span>This is venkat</span>
+        <span>This is venkat</span> -->
+
+    </body>
+</html>
+
+<!-- 
+block element -> less content it will occupy the full width and it will start in new line
+
+inline element => how much ever width req. for that content it will occupy
+
+-->
+
+
+<!-- 
+when we work with the forms, we have to use form tag
+
+1)label
+2)input
+
+
+
+
+
+
+
+forms are used to collect the user input and send it the server for the processing. -->
